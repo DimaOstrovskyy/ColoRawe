@@ -1,0 +1,337 @@
+.main_first--section {
+    background-image: url(/image/nike-sneakers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main_container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.main_first--title {
+    color: #FFFFFF;
+    font-size: 144px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0;
+
+}
+
+.main_first--subtitle {
+    color: #FFFFFF;
+    font-size: 72px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -15px;
+}
+
+.main_first--text {
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    text-align: left;
+    max-width: 508px;
+    margin-top: 12px;
+}
+
+.main_fisrt--button {
+    height: 67px;
+    width: 254px;
+    margin-top: 41px;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #8E32C6;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main_first--logo {
+    padding-top: 94px;
+    padding-left: 14px;
+}
+
+.main_fisrt--button--wrapper {
+    padding-bottom: 183px;
+}
+
+.main_second--section {
+    background-image: url(/image/Group\ 8\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 105px;
+    padding-bottom: 105px;
+}
+
+.main_second--section .main_container {
+    display: flex;
+    gap: 95px;
+    justify-content: center;
+    border: 5px solid #8E32C6;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main_second--card--text {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47.99px;
+    text-align: center;
+    color: #FFFFFF;
+    max-width: 159px;
+}
+
+.main_second--card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_second--card:first-child {
+    border-right: 1px solid white;
+    padding-right: 50px;
+}
+
+.main_second--card:first-child::after {
+    content: "";
+    background-image: url("../image/Звёзды\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+}
+
+
+.main_second--card:last-child {
+    border-left: 1px solid white;
+    padding-left: 50px;
+    max-width: 346px;
+}
+
+.main_second--card:last-child::after {
+    content: "";
+    background-image: url("../image/Грузан\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+}
+
+.main_second--card:nth-child(2)::before {
+    content: "";
+    background-image: url("../image/Краски\ 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 240px;
+    height: 240px;
+}
+
+.main_third--section {
+    background-image: url("../image/Group\ 6\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #FFFFFF;
+    position: relative;
+    height: 520px;
+
+}
+
+.main_second--title {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 63.98px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main_third--card--text {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    color: #FFFFFF;
+    max-width: 228px;
+    margin: 0 auto;
+    padding-top: 49px;
+}
+
+.main_third--card--subtext {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    color: #D8D8D8;
+    padding-left: 13px;
+    padding-top: 8px;
+}
+
+.main_third--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_third--card--info {
+    display: flex;
+    gap: 93px;
+}
+
+.main_third--card {
+    width: 255px;
+    height: 292px;
+    border-radius: 15px;
+
+}
+
+.main_third--card:first-child {
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+    background: linear-gradient(136.55deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+}
+
+.main_third--card:nth-child(2) {
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+    background: linear-gradient(136.55deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+}
+
+.main_third--card:last-child {
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+    background: linear-gradient(142.67deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+}
+
+.main_third--card--infotext {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.main_third--card--newstext {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #D8D8D8;
+
+}
+
+.main_third--card--news {
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    margin-top: 47px;
+}
+
+.main_third--card--name {
+    padding-left: 5px;
+}
+
+.main_third--logo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.main_four--section {
+    background-image: url(/image/four.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid #FFFFFF;
+    height: 509px;
+}
+
+.main_four--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main_four--title {
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 21px;
+    color: #FFFFFF;
+}
+
+.main_four--input {
+    width: 580px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 19px;
+    padding-left: 20px;
+    font-size: 28px;
+    outline: 0;
+}
+
+.main_four--input::placeholder {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    color: #959595;
+}
+
+.main_four--content--left:first-of-type {}
+
+.main_four--button {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.81px;
+    color: #959595;
+    position: absolute;
+    top: 32px;
+    right: 78px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.main_four--content--left {
+    position: relative;
+}
+
+.main_four--input--invoker {
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 19px;
+    padding-left: 20px;
+    font-size: 28px;
+    outline: 0;
+}
+
+.main_four--input--invoker::placeholder {
+    color: #959595;
+
+}
+
+.main_four--button--buy {
+    width: 248px;
+    height: 68px;
+    border: 0;
+    border-radius: 16px;
+    background-color:  #8E32C6;
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 19px;
+    margin-bottom: 37px;
+
+}
