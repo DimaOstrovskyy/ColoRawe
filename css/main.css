@@ -328,10 +328,12 @@
     height: 68px;
     border: 0;
     border-radius: 16px;
-    background-color:  #8E32C6;
+    background-color: #8E32C6;
     color: #FFFFFF;
     font-size: 24px;
     margin-top: 19px;
     margin-bottom: 37px;
+    cursor: pointer;
 
 }
+
